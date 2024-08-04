@@ -25,14 +25,16 @@ A simple and interactive star rating component built with React and Vite. This p
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/star-rating.git
+      ```bash
+      git clone https://github.com/your-username/star-rating.git
 2.**Navigate to the project directory:**
 
-   cd star-rating
+      cd star-rating
+      
 3.**Install dependencies:**
 
-  npm install
+     npm install
+     
 4.**Start the development server:**
 
-  npm run dev
+     npm run dev
