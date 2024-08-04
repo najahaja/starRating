@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(45, 138, 213);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stars-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 40px;
+    color: #cccfdc; /* Default star color */
+    transition: color 0.2s ease;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star,
+  input[type="radio"]:checked ~ .star {
+    color: #ffca28; /* Color for the star on hover and selected */
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="number"] {
+    margin-left: 12px;
+    max-width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
